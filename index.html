@@ -74,78 +74,49 @@
         </div>
     </div>
 </div></div>
+
                     <div class="center_box">
                         <div id="center_box_main" style="margin-left: 280px;">
                             <div id="main_banner">
-                                <img id="banner_img" style="height: 372px; width: 700px; display: none;" alt="" src="banner(1).jpg">
-                                <iframe id="banner_frame" frameborder="no" scrolling="no" style="height: 372px; width: 700px;" alt="" src="banner.html"></iframe>
+                                <img id="banner_img" style="height: 372px; width: 700px; display: none;" alt="" src="./BOLT! Mobile WiFi home_files/banner(1).jpg">
+                                <iframe id="banner_frame" frameborder="no" scrolling="no" style="height: 372px; width: 700px;" alt="" src="./BOLT! Mobile WiFi home_files/banner.html"></iframe>
                             </div>
                             <div id="right_column">
                                 <div id="index_connection_button_old">
                                     <div id="index_connection_button" class="main_button main_button_float"><span class="button_wrapper" id="disconnect_btn"><span class="button_left"><span class="button_right"><span class="button_center">Disconnect</span></span></span></span></div>
                                 </div>
                                 <div id="speed" class="customized_links">
-                                    <img src="Spaceship_2x.png">
+                                    <img src="./BOLT! Mobile WiFi home_files/Spaceship_2x.png">
                                     <div class="img_title">BOLT! Speed</div>
-                                    <div>Aplikasi : <span id="download_rate_span">1.5</span> Bulan Kedepan</div>
-                                    <div>Ap Date : <span id="upload_rate_span">1.5</span> Bulan</div>
+                                    <div>Download : <span id="download_rate_span">0.5</span> kbps</div>
+                                    <div>Upload : <span id="upload_rate_span">0.5</span> kbps</div>
                                 </div>
-                                <div <a><script type='text/javascript'>
-<!--
-var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
-var date = new Date();
-var day = date.getDate();
-var month = date.getMonth();
-var yy = date.getYear();
-var year = (yy < 1000) ? yy + 1900 : yy;
-document.write(day + " " + months[month] + " " + year);
-//-->
-</script>
-	<div id="clock"></div>
-<script type="text/javascript">
-<!--
-function showTime() {
-    var a_p = "";
-    var today = new Date();
-    var curr_hour = today.getHours();
-    var curr_minute = today.getMinutes();
-    var curr_second = today.getSeconds();
-    if (curr_hour < 12) {
-        a_p = "AM";
-    } else {
-        a_p = "PM";
-    }
-    if (curr_hour == 0) {
-        curr_hour = 12;
-    }
-    if (curr_hour > 12) {
-        curr_hour = curr_hour - 12;
-    }
-    curr_hour = checkTime(curr_hour);
-    curr_minute = checkTime(curr_minute);
-    curr_second = checkTime(curr_second);
- document.getElementById('clock').innerHTML=curr_hour + ":" + curr_minute + ":" + curr_second + " " + a_p;
-    }
-function checkTime(i) {
-    if (i < 10) {
-        i = "0" + i;
-    }
-    return i;
-}
-setInterval(showTime, 500);
-//-->
-</script></a>
+                                <div id="duration" class="customized_links">
+                                    <img src="./BOLT! Mobile WiFi home_files/Watches_2x.png">
+                                    <div class="img_title" id="TotalConnectTime">01:33:36</div>
+                                    <script type="text/javascript">dw(home_access_duration);</script>Akses Durasi
                                 </div>
                             </div>
+                            <div id="bottom_links">
+                                <div id="current_usage" class="customized_links">
+                                    <img src="./BOLT! Mobile WiFi home_files/Box_2x.png">
+                                    <div id="current_usage_data" class="img_title">39.68 MB</div>
+                                    <script type="text/javascript">dw(home_current_usage);</script>Pemakaian kuota saat ini
+                                </div>
+                                <div id="remaining_quota" class="customized_links">
+                                    <img src="./BOLT! Mobile WiFi home_files/Pocket_2x.png">
+                                    <div class="img_title" id="json_qouta">0 MB</div>
+                                    <script type="text/javascript">dw(home_remaining_quota);</script>Sisa kuota Anda
+                                </div>
                                 <a id="reload_link" class="customized_links" href="http://www.boltsuper4g.com/reload" target="blank">
-                                    <img src="Money_2x.png">
-                                    <div class="img_title"><script type="text/javascript">dw(home_reload);</script>Kalau App Ada Yg Eror</div>
-                                    <script type="text/javascript">dw(home_boost_your_quota);</script>Laporkan LURR..!!!
+                                    <img src="./BOLT! Mobile WiFi home_files/Money_2x.png">
+                                    <div class="img_title"><script type="text/javascript">dw(home_reload);</script>Isi Ulang</div>
+                                    <script type="text/javascript">dw(home_boost_your_quota);</script>Tambahkan Kuota Anda
                                 </a>
                                 <a id="play_link" class="customized_links" href="http://www.boltsuper4g.com/addon" target="blank">
-                                    <img src="BoltPlay.png">
-                                    <div class="img_title">Ap Grand ! Prix</div>
-                                    <script type="text/javascript">dw(home_free_content);</script>Perbarui APP Nya...!!!
+                                    <img src="./BOLT! Mobile WiFi home_files/BoltPlay.png">
+                                    <div class="img_title">BOLT! Play</div>
+                                    <script type="text/javascript">dw(home_free_content);</script>Gratis Konten
                                 </a>
                             </div>
                         </div>
